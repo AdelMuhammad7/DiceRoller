@@ -55,3 +55,15 @@ button:hover {
     transition: 1s;
     
 }
+
+@media (max-width:450px) {
+    .container {
+        padding-top: 0;
+        gap: 25px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 22px;
+    }
+}
